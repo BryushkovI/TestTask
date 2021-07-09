@@ -38,5 +38,6 @@ namespace test1
                 return list[list.Count() / 2];
             }
         }
+
     }
 }
