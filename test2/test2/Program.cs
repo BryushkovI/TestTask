@@ -18,7 +18,7 @@ namespace test2
             StreamReader sr = new StreamReader(Path);
 
             List<string> LineList = new List<string>();// неупорядоченный список
-            
+
             string line; // объявляем строку
             while ((line = sr.ReadLine()) != null) LineList.Add(line); //парсим каждую строку, добавляем в список
             sr.Close();
