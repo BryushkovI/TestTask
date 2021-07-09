@@ -11,24 +11,22 @@ namespace test1
     {
         static void Main(string[] args)
         {
-            string Path = Console.ReadLine();
+            System.Threading.Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("en-US");
+            Formulas formulas = new Formulas();
+            string Path = Console.ReadLine(); //указываем ссылку на текстовый файл
 
             StreamReader sr = new StreamReader(Path);
 
-            List<int> list = new List<int>();
-            string line;
+            List<int> list = new List<int>();// неупорядоченный список
 
-            while ((line = sr.ReadLine()) != null)
-            {
-                list.Add(Convert.ToInt32(line));
-            }
+            string line; // объявляем строку
+            while ((line = sr.ReadLine()) != null) list.Add(Convert.ToInt32(line)); //парсим каждую строку, добавляем в список
 
-            foreach (var e in list) Console.WriteLine(e);
+            Console.WriteLine(string.Format("{0:f2}", formulas.Percentile(list, 0.9)));
 
             Console.ReadKey();
 
             /*
-             * упорядочить числа
              * 90 перценталь
              * медиана
              * максимальное значение
