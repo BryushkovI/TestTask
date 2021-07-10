@@ -13,7 +13,7 @@ namespace test2
         static void Main(string[] args)
         {
             System.Threading.Thread.CurrentThread.CurrentCulture = new System.Globalization.CultureInfo("en-US");
-            string Path = "test2.txt"; //указываем ссылку на текстовый файл с координатами четырехуголника
+            string Path = Console.ReadLine(); //указываем ссылку на текстовый файл с координатами четырехуголника
 
             StreamReader sr = new StreamReader(Path);
 
@@ -22,7 +22,7 @@ namespace test2
             string line; // объявляем строку
             while ((line = sr.ReadLine()) != null) LineList.Add(line); //парсим каждую строку, добавляем в список
             sr.Close();
-            sr = new StreamReader("test2_2.txt");
+            sr = new StreamReader(Console.ReadLine());
             string point_line;
             List<string> PointsLineList = new List<string>();
             while ((point_line = sr.ReadLine()) != null) PointsLineList.Add(point_line);
@@ -44,7 +44,7 @@ namespace test2
                 Console.WriteLine(methods.Answer(QuadCoords, e));
             }
             Console.ReadKey();
-            //переделать фотмула для суммы треугольников
+            
         }
     }
 }
