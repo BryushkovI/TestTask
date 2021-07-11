@@ -15,9 +15,10 @@ namespace test3
             StreamReader sr;
             double MaxVisitres = 0;
             int NumMaxInterval = 0;
+            string path = Console.ReadLine();
             for(int i = 0; i < 4; i++)
             {
-                sr = new StreamReader($"Cash{i + 1}.txt");
+                sr = new StreamReader($"{path}\\Cash{i + 1}.txt");
                 string line;
                 List<double> Intervals = new List<double>();
                 while ((line = sr.ReadLine()) != null)
