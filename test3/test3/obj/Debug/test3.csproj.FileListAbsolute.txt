@@ -1,7 +1,7 @@
-C:\Users\bryus\source\repos\TestTask\test3\test3\bin\Debug\test3.exe.config
-C:\Users\bryus\source\repos\TestTask\test3\test3\bin\Debug\test3.exe
-C:\Users\bryus\source\repos\TestTask\test3\test3\bin\Debug\test3.pdb
 C:\Users\bryus\source\repos\TestTask\test3\test3\obj\Debug\test3.csprojAssemblyReference.cache
 C:\Users\bryus\source\repos\TestTask\test3\test3\obj\Debug\test3.csproj.CoreCompileInputs.cache
-C:\Users\bryus\source\repos\TestTask\test3\test3\obj\Debug\test3.exe
-C:\Users\bryus\source\repos\TestTask\test3\test3\obj\Debug\test3.pdb
+C:\Users\bryus\source\repos\TestTask\test3\test3\bin\Debug\task3.exe.config
+C:\Users\bryus\source\repos\TestTask\test3\test3\bin\Debug\task3.exe
+C:\Users\bryus\source\repos\TestTask\test3\test3\bin\Debug\task3.pdb
+C:\Users\bryus\source\repos\TestTask\test3\test3\obj\Debug\task3.exe
+C:\Users\bryus\source\repos\TestTask\test3\test3\obj\Debug\task3.pdb

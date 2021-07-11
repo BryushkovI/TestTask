@@ -1,0 +1,7 @@
+C:\Users\bryus\source\repos\TestTask\test4\test4\obj\Debug\task4.csproj.CoreCompileInputs.cache
+C:\Users\bryus\source\repos\TestTask\test4\test4\obj\Debug\task4.csprojAssemblyReference.cache
+C:\Users\bryus\source\repos\TestTask\test4\test4\bin\Debug\task4.exe.config
+C:\Users\bryus\source\repos\TestTask\test4\test4\bin\Debug\task4.exe
+C:\Users\bryus\source\repos\TestTask\test4\test4\bin\Debug\task4.pdb
+C:\Users\bryus\source\repos\TestTask\test4\test4\obj\Debug\task4.exe
+C:\Users\bryus\source\repos\TestTask\test4\test4\obj\Debug\task4.pdb

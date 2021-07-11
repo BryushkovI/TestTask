@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D5F72D56-D449-481B-9B2F-0FB233E96AAE}</ProjectGuid>
+    <ProjectGuid>{02337B6E-7888-41AC-9D4C-747D21E36F01}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>test1</RootNamespace>
-    <AssemblyName>task1</AssemblyName>
+    <RootNamespace>test4</RootNamespace>
+    <AssemblyName>task4</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Formulas.cs" />
+    <Compile Include="Methods.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Visiter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
