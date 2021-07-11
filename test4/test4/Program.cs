@@ -21,8 +21,8 @@ namespace test4
             }
             sr.Close();
             Dictionary<DateTime, int> dayDict = new Dictionary<DateTime, int>();
-            for (DateTime i = new DateTime(2021, 7, 11, 8, 00, 00);
-                          i <= new DateTime(2021, 7, 11, 20, 00, 00);
+            for (DateTime i = new DateTime(DateTime.Today.Year, DateTime.Today.Month, DateTime.Today.Day, 8, 00, 00);
+                          i <= new DateTime(DateTime.Today.Year, DateTime.Today.Month, DateTime.Today.Day, 20, 00, 00);
                           i = i.AddMinutes(1))
                 dayDict.Add(i, 0);
             foreach(Visiter e in visiters)
